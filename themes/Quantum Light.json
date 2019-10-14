@@ -99,7 +99,7 @@
         "meta.scope.prerequisites"
       ],
       "settings": {
-        "foreground": "#ed2655"
+        "foreground": "#0088cc"
       }
     },
     {
@@ -132,7 +132,7 @@
       "name": "Storage Annotation/Types",
       "scope": ["storage.type.annotation"],
       "settings": {
-        "foreground": "#ffffb4"
+        "foreground": "#d97e00"
       }
     },
     {
@@ -165,6 +165,7 @@
       "scope": [
         "variable.function",
         "support.function",
+        "meta.function-call.generic",
         "keyword.other.special-method",
         "meta.method.groovy"
       ],
@@ -241,7 +242,7 @@
     },
     {
       "name": "Operators",
-      "scope": ["keyword.operator", "punctuation.separator.key-value"],
+      "scope": ["keyword.operator", "punctuation.separator.key-value", "punctuation.definition.entity"],
       "settings": {
         "foreground": "#8fa1b2"
       }
@@ -267,7 +268,7 @@
         "constant.other.bareword"
       ],
       "settings": {
-        "foreground": "#0088cc"
+        "foreground": "#b82ee5"
       }
     },
     {
@@ -426,7 +427,7 @@
         "entity.name.function"
       ],
       "settings": {
-        "foreground": "#0088cc"
+        "foreground": "#2cbb0f"
       }
     },
     {
@@ -527,7 +528,16 @@
         "support.constant.media"
       ],
       "settings": {
-        "foreground": "#ed2655"
+        "foreground": "#2cbb0f"
+      }
+    },
+    {
+      "name": "JS/JSON Key",
+      "scope": [
+        "punctuation.support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#5b5fff"
       }
     },
     {

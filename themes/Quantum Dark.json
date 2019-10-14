@@ -95,7 +95,7 @@
         "meta.scope.prerequisites"
       ],
       "settings": {
-        "foreground": "#eb5368"
+        "foreground": "#46afe3"
       }
     },
     {
@@ -161,6 +161,7 @@
       "scope": [
         "variable.function",
         "support.function",
+        "meta.function-call.generic",
         "keyword.other.special-method",
         "meta.method.groovy"
       ],
@@ -206,6 +207,7 @@
         "string",
         "string.quoted.double.json",
         "punctuation.definition.string",
+        "punctuation.support",
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
@@ -236,7 +238,7 @@
     },
     {
       "name": "Operators",
-      "scope": ["keyword.operator", "punctuation.separator.key-value"],
+      "scope": ["keyword.operator", "punctuation.separator.key-value", "punctuation.definition.entity"],
       "settings": {
         "foreground": "#8fa1b2"
       }
@@ -262,7 +264,7 @@
         "constant.other.bareword"
       ],
       "settings": {
-        "foreground": "#46afe3"
+        "foreground": "#df80ff"
       }
     },
     {
@@ -421,7 +423,7 @@
         "entity.name.function"
       ],
       "settings": {
-        "foreground": "#46afe3"
+        "foreground": "#70bf53"
       }
     },
     {
@@ -515,14 +517,23 @@
     {
       "name": "Object Key",
       "scope": [
-        "support.type.property-name.json",
         "meta.object-literal.key",
         "variable.other.property",
         "support.variable.property",
-        "support.constant.media"
+        "support.constant.media",
+        "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#eb5368"
+        "foreground": "#70bf53"
+      }
+    },
+    {
+      "name": "JS Key",
+      "scope": [
+        "punctuation.support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#6b7abb"
       }
     },
     {

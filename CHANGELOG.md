@@ -2,6 +2,24 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
+## 1.1.8
+- Made `storage.type.annotations` clearer to see in Light
+- Made user-defined generic functions highlighted on languages such as Python
+- Some misc back-end stuff
+
+
+## 1.1.5
+
+- In-built classes for languages should now be pink (in accordance to Firefox DevTool/Scratchpad)
+- JS/JSON Property keys now in blue
+
+- Polish to repo
+
+## 1.1.3
+
+- Variables now blue, functions now green
+- Support classes, etc are now purple
+
 ## 1.1.1
 
 - Fixed formatting of SCREENSHOTS.md
@@ -23,7 +41,7 @@ Here lands a biggish update, including improvements to the theme to catch up to 
     - Property colours now green
     - Numbers and interpolation now a more vibrant blue
     - Support types and CSS Pseudos now a lighter/darker grey for dark/light themes respectively
-  - Operators now coloured the same as types (light grey) to maintain consistency with DevTools, and to stop the amount of blue! 
+  - Operators now coloured the same as types (light grey) to maintain consistency with DevTools, and to stop the amount of blue!
   - Symbols in Clojure changed to green
   - CONSISTENCY Background colour changed on tabs to match DevTools, Light
   - CONSISTENCY Tab border changed, Light
